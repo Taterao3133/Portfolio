@@ -34,7 +34,7 @@
         </div>
 
         <section class="hero">
-            <div class="hero-info">
+            <div class="hero-info autoBlur">
                 <div class="hero-info-title">
                     <i class='bx bxl-sketch'></i>
                     Web/Full-stack  Developer Portfolio
@@ -49,14 +49,14 @@
                 
             </div>
             <div class="hero-vid-box">
-                <video loop autoplay muted plays-online  src="videos/hero-video.mp4" type="videomp4"></video>
+                <video class="autoBlur" loop autoplay muted plays-online  src="videos/hero-video.mp4" type="videomp4"></video>
             </div>
             <!-- scroll btn -->
             <div class="scroll-down"></div>
 
         </section>
         <section class="info-section">
-            <h1 style="margin-left: 270px;" class="section-title">Hello, There 👋</h1>
+            <h1 style="margin-left: 270px;" class="section-title autoDisplay">Hello, There 👋</h1>
             <div class="info-cards">
                 <div class="card">
                     <img src="Images/grid1.png" alt="card-image">
@@ -87,12 +87,12 @@
 
         <!-- prject section -->
          <section class="my-projects">
-            <h1 class="section-title">
+            <h1 class="section-title autoDisplay">
                 My Projects 🏢
             </h1>
 
             <div class="project-card">
-                <div class="project-vidbox">
+                <div class="project-vidbox autoBlur">
                     <video id="projectVideo1" src="videos/project1.mp4" preload="auto"></video>
                 </div>
                 <div class="project-info">
@@ -103,7 +103,7 @@
                 </div>
             </div>
             <div class="project-card">
-                <div class="project-vidbox">
+                <div class="project-vidbox autoBlur">
                     <video  id="projectVideo2" src="videos/project2.mp4" preload="auto"></video>
                 </div>
                 <div class="project-info">
@@ -119,7 +119,7 @@
                 </div>
             </div>
             <div class="project-card">
-                <div class="project-vidbox">
+                <div class="project-vidbox autoBlur">
                     <video id="projectVideo3" src="videos/project3.mp4" preload="auto" ></video>
                 </div>
                 <div class="project-info">
@@ -130,7 +130,7 @@
                 </div>
             </div>
             <div class="project-card">
-                <div class="project-vidbox">
+                <div class="project-vidbox autoBlur">
                     <video id="projectVideo4" src="videos/project1.mp4" preload="auto"></video>
                 </div>
                 <div class="project-info">
@@ -141,8 +141,8 @@
                 </div>
             </div>
          </section>
-         <div class="skills-section">
-            <h1 class="section-title">
+         <section class="skills-section">
+            <h1 class="section-title autoDisplay">
                 My Skills 💪
             </h1>
             <div class="skills-box">
@@ -160,8 +160,55 @@
                     <p>I'm skilled in HTML, CSS, JavaScript, Tailwind CSS and frameworks like Reactjs and node.js. 
                         I also have experiences with database management using MongoDB and Mysql, sql</p>
                 </div>
+                <div class="slider" reverse="true" style="
+                    --width: 100px;
+                    --height: 100px;
+                    --quantity: 9;
+                    
+                    ">
+                    <div class="list">
+                        <div class="item" style="--position: 1"><img src="Images/1.png" alt="slider-image" alt=""></div>
+                        <div class="item" style="--position: 2"><img src="Images/2.png" alt="slider-image" alt=""></div>
+                        <div class="item" style="--position: 3"><img src="Images/3.png" alt="slider-image" alt=""></div>
+                        <div class="item" style="--position: 4"><img src="Images/4.png" alt="slider-image" alt=""></div>
+                        <div class="item" style="--position: 5"><img src="Images/5.png" alt="slider-image" alt=""></div>
+                        <div class="item" style="--position: 6"><img src="Images/6.png" alt="slider-image" alt=""></div>
+                        <div class="item" style="--position: 7"><img src="Images/7.png" alt="slider-image" alt=""></div>
+                        <div class="item" style="--position: 8"><img src="Images/8.png" alt="slider-image" alt=""></div>
+                        <div class="item" style="--position: 9"><img src="Images/1.png" alt="slider-image" alt=""></div>
+                    </div>
+                 
+
+                </div>
             </div>
-         </div>
+        </section>
+        <section class="contact-section">
+            <h1 class="section-title autoDisplay">Let's talk 😊</h1>
+            <div class="social-box">
+                <a href=""><i class='bx bx-phone-call'></i>+91 8788179986</a>
+                <a href=""><i class='bx bxl-whatsapp' ></i>+91 8788179986</a>
+                <a href=""><i class='bx bxl-linkedin' ></i></a>
+                <a href=""><i class='bx bxl-gmail' ></i>taterao3133@gmail.com</a>
+            </div>
+            <div class="contact-box">
+                <p>whether you're looking to build a new website, improve your existing 
+                    platform, or bring a Unique project to file. i'm here to help.
+                </p>
+                <p>Full Name</p>
+                <input type="text" placeholder="Your Full Name">
+
+                <p>Email Address</p>
+                <input type="text" placeholder="Your Email">
+
+                <p>Your Message</p>
+                <input class="input-message" type="text" placeholder="Share your thoughts.....">
+
+                <button><i class='bx bx-send' ></i>Send Message</button>
+            </div>
+        </section>
+        <footer>
+            <h1>Copyright © Taterao, Made with 💖 by TateraoCoder</h1>
+        </footer>
     </div>
 
 
