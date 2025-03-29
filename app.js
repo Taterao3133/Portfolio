@@ -15,3 +15,7 @@ videoList.forEach(video => {
         video.currentTime = 0;
     });
 });
+
+function toggleMenu() {
+    document.querySelector(".nav-links").classList.toggle("active");
+}
