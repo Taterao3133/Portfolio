@@ -811,14 +811,42 @@ footer h1{
 
     .hero-vid-box{
       
-        top: 5%;
-        right: 5%;
+        top: -5%;
+        right: 0;
     }
     .autoBlur{
         animation: none;
-        height: 20px;
-        width: 50px;
+        height: 61%;
+        width: 300px;
+        margin-top: -95%;
 
+    }
+    .info-section{
+        margin-top: 20vh;
+        width: 100%;
+    }
+    .info-section .section-tilte{
+        
+     
+      text-align: center;
+    }
+    .info-cards{
+        grid-template-columns: none;
+        width: 90%;
+        margin-left: 3%;
+        
+    }
+    .card:nth-child(3){
+        width: 160%;
+    }
+    .card video{
+        width: 100%;
+    }
+    .card h1{
+        font-size: 18px;
+    }
+    .card:nth-child(2){
+        width: 100%;
     }
     .my-projects{
         margin-bottom:600px;
@@ -924,15 +952,33 @@ footer h1{
     .autoBlur{
         animation: none;
     }
+    .social-box{
+        gap: 5px;
+    }
     .contact-section{
         flex-direction: column;
         width: 80%;
         margin-top: 220px;
         margin-bottom: 50px;
     }
-    .contact-section .section-tilte{
-        top: -100px;
-        left: 15%;
+    .contact-box{
+        margin-top: -10%;
+        margin-bottom: 80px;
+    }
+    .contact-section h1{
+        position: relative;
+        text-align: center;
+        margin-left: -80%;
+        }
+
+
+    /* footer */
+    footer h1{
+        font-size: 14px;
+    }
+    footer{
+        height: 40px;
+        
     }
 
     /* header{
